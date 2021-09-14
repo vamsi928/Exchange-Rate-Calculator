@@ -28,7 +28,7 @@ currencyTwo.addEventListener("change", calculate);
 amountOne.addEventListener("input", calculate);
 
 //amountTwo change addEventListener
-amountTwo.addEventListener("change", calculate);
+amountTwo.addEventListener("input", calculate);
 
 //swapping the currencies using a temp variable
 swap.addEventListener("click", () => {
